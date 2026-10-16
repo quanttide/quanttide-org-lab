@@ -5,6 +5,12 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，
 版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.1.0-alpha.2] - 2026-10-16
+
+### 修复
+
+- 白屏：CanvasKit 改为从本地 `/canvaskit/` 加载（debug 与构建产物均随包分发），不再依赖 gstatic.com——国内网络 gstatic 不可达时引擎初始化卡死导致白屏（对齐 qtcloud-execute 的解决方案）
+
 ## [0.1.0-alpha.1] - 2026-10-16
 
 ### 新增
